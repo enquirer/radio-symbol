@@ -1,0 +1,33 @@
+{
+  "name": "radio-symbol",
+  "description": "Unicode radio symbol.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/radio-symbol",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/radio-symbol",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/radio-symbol/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "cli",
+    "console",
+    "prompt",
+    "radio",
+    "symbol",
+    "terminal",
+    "unicode"
+  ]
+}
