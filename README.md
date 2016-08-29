@@ -1,6 +1,6 @@
 # radio-symbol [![NPM version](https://img.shields.io/npm/v/radio-symbol.svg?style=flat)](https://www.npmjs.com/package/radio-symbol) [![NPM downloads](https://img.shields.io/npm/dm/radio-symbol.svg?style=flat)](https://npmjs.org/package/radio-symbol)
 
-Unicode radio buttom symbol, for toggling on/off in prompts.
+Unicode radio button symbol, for toggling on/off in prompts.
 
 ## Install
 
