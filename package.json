@@ -1,12 +1,12 @@
 {
   "name": "radio-symbol",
-  "description": "Unicode radio symbol.",
-  "version": "0.1.1",
-  "homepage": "https://github.com/jonschlinkert/radio-symbol",
+  "description": "Unicode radio buttom symbol, for toggling on/off in prompts.",
+  "version": "0.1.2",
+  "homepage": "https://github.com/enquirer/radio-symbol",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/radio-symbol",
+  "repository": "enquirer/radio-symbol",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/radio-symbol/issues"
+    "url": "https://github.com/enquirer/radio-symbol/issues"
   },
   "license": "MIT",
   "files": [
@@ -29,5 +29,32 @@
     "symbol",
     "terminal",
     "unicode"
-  ]
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^0.1.10"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "prompt-choices",
+        "choices-separator",
+        "enquirer"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
