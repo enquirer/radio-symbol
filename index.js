@@ -1,8 +1,8 @@
 'use strict';
 
+var win = require('is-windows');
 var green = require('ansi-green');
 var gray = require('ansi-gray');
-var win = process.platform === 'win32';
 
 module.exports = {
   on: green(win ? '(*)' : '◉'),
@@ -28,14 +28,14 @@ module.exports.nocolor = {
   disabled: win ? '(x)' : 'ⓧ',
 
   star: {
-    on: green('★'),
+    on: '★',
     off: '☆',
-    disabled: gray('☆')
+    disabled: '☆'
   },
 
   ballot: {
-    on: green('☑'),
+    on: '☑',
     off: '☐',
-    disabled: gray('☒')
+    disabled: '☒'
   }
 };
