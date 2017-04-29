@@ -10,9 +10,7 @@
   },
   "license": "MIT",
   "files": [
-    "index.js",
-    "LICENSE",
-    "README.md"
+    "index.js"
   ],
   "main": "index.js",
   "engines": {
@@ -23,7 +21,8 @@
   },
   "dependencies": {
     "ansi-gray": "^0.1.1",
-    "ansi-green": "^0.1.1"
+    "ansi-green": "^0.1.1",
+    "is-windows": "^1.0.1"
   },
   "devDependencies": {
     "gulp-format-md": "^0.1.10"
@@ -48,10 +47,10 @@
     ],
     "related": {
       "list": [
+        "error-symbol",
         "info-symbol",
-        "warning-symbol",
         "success-symbol",
-        "error-symbol"
+        "warning-symbol"
       ]
     },
     "reflinks": [
