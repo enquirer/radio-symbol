@@ -1,6 +1,6 @@
 'use strict';
 
-var win = require('is-windows');
+var win = require('is-windows')();
 var green = require('ansi-green');
 var gray = require('ansi-gray');
 
