@@ -1,7 +1,7 @@
 {
   "name": "radio-symbol",
   "description": "Unicode radio button symbol, for toggling on/off in prompts.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/enquirer/radio-symbol",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "enquirer/radio-symbol",
@@ -25,7 +25,8 @@
     "is-windows": "^1.0.1"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.10"
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.3.0"
   },
   "keywords": [
     "cli",
@@ -53,10 +54,6 @@
         "warning-symbol"
       ]
     },
-    "reflinks": [
-      "verb",
-      "verb-generate-readme"
-    ],
     "lint": {
       "reflinks": true
     }
