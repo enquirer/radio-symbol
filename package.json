@@ -1,12 +1,12 @@
 {
   "name": "radio-symbol",
-  "description": "Unicode radio button symbol, for toggling on/off in prompts.",
-  "version": "2.0.0",
-  "homepage": "https://github.com/enquirer/radio-symbol",
+  "description": "This repository has been archived, since it is no longer needed by Enquirer.",
+  "version": "2.0.1",
+  "homepage": "https://github.com/enquirer/enquirer",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "enquirer/radio-symbol",
+  "repository": "enquirer/enquirer",
   "bugs": {
-    "url": "https://github.com/enquirer/radio-symbol/issues"
+    "url": "https://github.com/enquirer/enquirer/issues"
   },
   "license": "MIT",
   "files": [
@@ -39,7 +39,7 @@
   ],
   "verb": {
     "toc": true,
-    "layout": "default",
+    "layout": false,
     "tasks": [
       "readme"
     ],
